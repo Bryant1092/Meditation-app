@@ -5,14 +5,16 @@
     box-sizing: border-box;
 }
 
-.APP {
+.app {
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.time-select, .sound-picker {
+.time-select, 
+.sound-picker,
+.player-container {
     height: 80%;
     flex: 1;
 }
@@ -22,5 +24,9 @@
 }
 
 .sound-picker {
-    background-color: lightgreen;
+    background: lightgreen;
+}
+
+.player-container {
+    background: lightcoral;
 }
